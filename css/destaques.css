@@ -1,0 +1,54 @@
+.destaques {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding-top: 2.3125rem;
+    padding-bottom: 2.25rem;
+
+    background-color: var(--azul-claro);
+}
+
+.destaques__titulo {
+    
+}
+
+.destaques__painel {
+    width: 100%;  
+}
+
+.destaques a {
+    margin-top: 2rem;
+    margin-bottom: .75rem;
+}
+
+.destaques__painel-imagem {
+    width: 375px;
+    max-width: 375px;
+
+    margin-bottom: .75rem;
+}
+
+.destaques__painel-texto {
+    width: 90%;
+
+    text-align: justify;
+
+    margin: 0 auto;
+
+    color: #000;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+}
+
+.destaques_botao {
+    margin-top: 1.75rem;
+
+    border-color: var(--vermelho-forte);
+    color: var(--vermelho-forte);
+}
