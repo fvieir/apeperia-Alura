@@ -23,13 +23,8 @@ body {
 
 h2 {
     font-family: 'Montserrat', serif; 
-    font-weight: 700;
-    font-size: 1.5rem;
     color: #4F4C4C;
     text-transform: uppercase;
-    text-align: center;
-
-    margin-bottom: 2rem;
 }
 
 .container {

@@ -1,10 +1,40 @@
-.diferenciais {}
+.diferenciais {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
 
-.diferenciais__lista {}
+.diferenciais__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-.diferenciais__item {}
+}
 
-.item__titulo {}
+.diferenciais__item {
+    padding-left: 3.75rem;
+    padding-right: 1.875rem;
+    
+    background-repeat: no-repeat;
+}
 
-.item__texto {}
+.diferenciais__item--tempo {
+    background-image: url('/img/icone-relogio.png'); 
+}
+.diferenciais__item--quimica {
+    background-image: url('/img/icone-quimica.png');
+}
+
+.item__titulo {
+    font-weight: 700;
+    font-size: 1.2rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.item__texto {
+    font-weight: 400;
+    line-height: normal;
+    
+    margin-bottom: 3rem;
+}
 
