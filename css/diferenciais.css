@@ -1,20 +1,23 @@
 .diferenciais {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
 }
 
 .diferenciais__lista {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .diferenciais__item {
-    padding-left: 3.75rem;
-    padding-right: 1.875rem;
+    max-width: 350px;
+
+    box-sizing: border-box;
+
+    padding: 2rem 0 2rem 5rem;
     
     background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.5rem;
 }
 
 .diferenciais__item--tempo {
@@ -24,17 +27,20 @@
     background-image: url('/img/icone-quimica.png');
 }
 
+.diferenciais__item--dinheiro {
+    background-image: url('/img/icone-dinheiro.png');
+}
+
 .item__titulo {
+    color: var(--cinza-escuro);
     font-weight: 700;
     font-size: 1.2rem;
+    text-transform: uppercase;
 
     margin-bottom: 1.5rem;
 }
 
 .item__texto {
-    font-weight: 400;
     line-height: normal;
-    
-    margin-bottom: 3rem;
 }
 
