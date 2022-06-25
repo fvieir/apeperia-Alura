@@ -1,15 +1,38 @@
-.sobre {}
+.sobre {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
-.sobre__conteudo {}
+.sobre__titulo {
+    color: var(--cinza-escuro);  
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
 
-.sobre__titulo {}
+    margin-bottom: 1.25rem;
+}
 
-.sobre__texto {}
+.sobre__texto {
+    line-height: normal;
 
-.sobre__texto--destaque {}
+    margin-bottom: 1rem;
+}
+
+.sobre__texto--destaque {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+}
 
 .sobre__texto--divisao {}
 
-.sobre__plataformas {}
+.sobre__plataformas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin-bottom: 1rem;
+}
 
 .sobre__imagem {}
