@@ -101,3 +101,9 @@
 .cartao__botao--ultra {
     border-color: var(--planos-cartao-ultra);
 }
+
+@media screen and (min-width: 768px) {
+    .cartao {
+        max-width: 400px;
+    }
+}
