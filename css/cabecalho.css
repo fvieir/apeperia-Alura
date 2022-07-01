@@ -33,3 +33,12 @@
 
     margin: 0 .7rem 1.25rem .7rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+
+        border-bottom: none;
+    }
+}
